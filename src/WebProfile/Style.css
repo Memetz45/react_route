@@ -1,0 +1,49 @@
+/* style for file Sidebar.jsx */
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-top: 82px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    display: block;
+}
+
+.link{
+    color: black;
+}
+.link-active{
+    color:#1677ff;
+    background-color: aliceblue;
+    width: 90%;
+    border-radius: 8px;
+}
+
+@media screen and (max-height: 700px) {
+    .sidenav {
+        padding-top: 15px;
+        margin-top: 76px;
+    }
+
+    .sidenav a {
+        font-size: 14px;
+    }
+}
+
+/* style for content all file in sidebar */
+.content{
+    margin-top: 80px;
+    margin-left: 170px;
+}
